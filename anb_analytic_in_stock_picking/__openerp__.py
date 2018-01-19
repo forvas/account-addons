@@ -51,6 +51,7 @@
         'static/description/main_3.png',
         'static/description/main_4.png',
         'static/description/main_5.png',
+        'static/description/main_6.png',
     ],
     'installable': True,
     'auto_install': False,
