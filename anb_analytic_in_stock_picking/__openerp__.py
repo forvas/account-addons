@@ -22,7 +22,7 @@
 ##############################################################################
 
 {
-    'name': 'Analytic in Stock Picking',
+    'name': 'Analytic Account in Stock Picking',
     'summary': 'Analytic account in stock pickings',
     'description': """Description in HTML file.""",
     'category': 'Accounting',
