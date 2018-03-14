@@ -27,7 +27,6 @@
     'description': """Description in HTML file.""",
     'category': 'Accounting',
     'version': '0.1',
-    'license': 'AGPL-3',
     'author': 'Anubia, Soluciones en la Nube, SL',
     'maintainer': 'Anubia, soluciones en la nube, SL',
     'contributors': [
