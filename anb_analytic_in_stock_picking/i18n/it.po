@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-19 11:03+0100\n"
-"PO-Revision-Date: 2018-01-19 11:24+0100\n"
+"POT-Creation-Date: 2018-03-12 18:10+0100\n"
+"PO-Revision-Date: 2018-03-12 18:11+0100\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -24,33 +24,38 @@ msgstr "Voce del conto"
 
 #. module: anb_analytic_in_stock_picking
 #: code:addons/anb_analytic_in_stock_picking/models/stock_picking.py:17
-#: field:stock.picking,project_id:0
+#: model:ir.model.fields,field_description:anb_analytic_in_stock_picking.field_stock_picking_project_id
 #, python-format
 msgid "Analytic Account"
 msgstr "Conto analitico"
 
 #. module: anb_analytic_in_stock_picking
-#: field:account.move,picking:0
+#: code:addons/anb_analytic_in_stock_picking/models/stock_picking.py:131
+#, python-format
+msgid ""
+"Configuration error. Please configure the price difference account on the "
+"product or its category to process this operation."
+msgstr ""
+"Errore di configurazione Si prega di configurare l'account differenza di "
+"prezzo sul prodotto o la sua categoria per elaborare questa operazione."
+
+#. module: anb_analytic_in_stock_picking
 #: code:addons/anb_analytic_in_stock_picking/models/account_move.py:17
+#: model:ir.model.fields,field_description:anb_analytic_in_stock_picking.field_account_move_picking
 #, python-format
 msgid "Picking"
 msgstr "Scelta"
 
 #. module: anb_analytic_in_stock_picking
-#: model:ir.model,name:anb_analytic_in_stock_picking.model_stock_picking
-msgid "Picking List"
-msgstr "Numero di prelievo"
-
-#. module: anb_analytic_in_stock_picking
-#: help:account.move,picking:0
 #: code:addons/anb_analytic_in_stock_picking/models/account_move.py:22
+#: model:ir.model.fields,help:anb_analytic_in_stock_picking.field_account_move_picking
 #, python-format
 msgid "Picking number"
 msgstr "Numero di prelievo"
 
 #. module: anb_analytic_in_stock_picking
 #: code:addons/anb_analytic_in_stock_picking/models/stock_picking.py:22
-#: help:stock.picking,project_id:0
+#: model:ir.model.fields,help:anb_analytic_in_stock_picking.field_stock_picking_project_id
 #, python-format
 msgid "Project id"
 msgstr "ID del progetto"
@@ -59,3 +64,23 @@ msgstr "ID del progetto"
 #: model:ir.model,name:anb_analytic_in_stock_picking.model_stock_quant
 msgid "Quants"
 msgstr "Quants"
+
+#. module: anb_analytic_in_stock_picking
+#: code:addons/anb_analytic_in_stock_picking/models/stock_picking.py:68
+#, python-format
+msgid ""
+"The found valuation amount for product %s is zero. Which means there is "
+"probably a configuration error. Check the costing method and the standard "
+"price"
+msgstr ""
+"L'importo di valutazione trovato per il prodotto% s è zero. Il che "
+"significa che probabilmente c'è un errore di configurazione. Controlla il "
+"metodo di calcolo dei costi e il prezzo standard"
+
+#. module: anb_analytic_in_stock_picking
+#: model:ir.model,name:anb_analytic_in_stock_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Trasferimento"
+
+#~ msgid "Picking List"
+#~ msgstr "Numero di prelievo"
